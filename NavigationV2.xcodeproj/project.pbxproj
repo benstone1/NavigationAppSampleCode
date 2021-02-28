@@ -11,6 +11,7 @@
 		F2E1F68225EB2C710042D885 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1F68125EB2C710042D885 /* ContentView.swift */; };
 		F2E1F68425EB2C740042D885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2E1F68325EB2C740042D885 /* Assets.xcassets */; };
 		F2E1F68725EB2C740042D885 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2E1F68625EB2C740042D885 /* Preview Assets.xcassets */; };
+		F2E1F69025EB2C8D0042D885 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E1F68F25EB2C8D0042D885 /* ItemDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		F2E1F68325EB2C740042D885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2E1F68625EB2C740042D885 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F2E1F68825EB2C740042D885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2E1F68F25EB2C8D0042D885 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				F2E1F67F25EB2C710042D885 /* NavigationV2App.swift */,
 				F2E1F68125EB2C710042D885 /* ContentView.swift */,
+				F2E1F68F25EB2C8D0042D885 /* ItemDetailView.swift */,
 				F2E1F68325EB2C740042D885 /* Assets.xcassets */,
 				F2E1F68825EB2C740042D885 /* Info.plist */,
 				F2E1F68525EB2C740042D885 /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2E1F69025EB2C8D0042D885 /* ItemDetailView.swift in Sources */,
 				F2E1F68225EB2C710042D885 /* ContentView.swift in Sources */,
 				F2E1F68025EB2C710042D885 /* NavigationV2App.swift in Sources */,
 			);
