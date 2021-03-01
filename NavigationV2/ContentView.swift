@@ -20,6 +20,13 @@ struct ContentView: View {
                     label: {
                         Text("Shrimp Chips")
                     })
+                    .padding()
+                NavigationLink(
+                    destination: ItemDetailView(itemName: "Peanut Butter"),
+                    label: {
+                        Text("Peanut Butter")
+                    })
+                    .padding()
                 Spacer()
             }
             .navigationTitle(Text("Ligaya's Store"))
