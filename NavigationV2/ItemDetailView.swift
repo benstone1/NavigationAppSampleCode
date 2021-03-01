@@ -10,7 +10,6 @@ import Foundation
 import SwiftUI
 
 struct ItemDetailView: View {
-    @State var quantityRemaining = Int.random(in: 1...10)
     let itemName: String
     
     var body: some View {
@@ -22,22 +21,14 @@ struct ItemDetailView: View {
             Image(systemName: "photo")
                 .font(.system(size: 200))
                 .padding()
-            Text("Quantity Remaining: \(quantityRemaining)")
             Spacer()
             Button {
-                if quantityRemaining > 0 {
-                    quantityRemaining -= 1
-                }
+                print("Button tapped")
             } label: {
                 Text("Add one to your cart")
             }
             Spacer()
         }
-        .background(
-            NavigationLink(destination: Text("You bought all the \(itemName)!"),
-                           isActive: .constant(quantityRemaining == 0),
-                           label: { EmptyView() })
-            )
     }
 }
 

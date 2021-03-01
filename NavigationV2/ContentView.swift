@@ -15,15 +15,13 @@ struct ContentView: View {
                     .font(.title)
                     .padding()
                 Spacer()
-                NavigationLink(
-                    destination: ItemDetailView(itemName: "Shrimp Chips"),
-                    label: {
-                        Text("Shrimp Chips")
-                    })
+                Button {
+                    print("Button tapped")
+                } label: {
+                    Text("Shrimp Chips")
+                }
                 Spacer()
             }
-            .navigationTitle(Text("Ligaya's Store"))
-            .navigationBarTitleDisplayMode(.inline)
         }
     }
 }
